@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddTimeDetails">
+
+    <EditText
+        android:id="@+id/Tid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter ID Code"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/TbusNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter Bus Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/TstartLocatiojn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter Start Location"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/TEndLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter End Location"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Ttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter Time"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Tdriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter Driver Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Details"
+        app:cornerRadius="15dp" />
+</LinearLayout>
