@@ -47,7 +47,7 @@ public class Signup extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                startActivity(new Intent(Signup.this, MainActivity.class));
+                startActivity(new Intent(Signup.this, Home.class));
 
                 ClearControls();
             }
