@@ -16,6 +16,7 @@
         <activity android:name=".ScanQR" />
         <activity android:name=".Home" />
         <activity android:name=".Signup" />
+        <activity android:name=".ReportList" />
         <activity
 
             android:name=".MainActivity"

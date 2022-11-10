@@ -26,7 +26,7 @@ public class Home extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                startActivity(new Intent(Home.this, Signup.class));
+                startActivity(new Intent(Home.this, ReportList.class));
             }
         });
 
