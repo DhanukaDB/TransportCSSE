@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         editTextTextEmailAddress2 = findViewById(R.id.editTextTextEmailAddress2);
         editTextTextPassword = findViewById(R.id.editTextTextPassword);
-        button.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, Signup.class)));
+        button.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, UserProfile.class)));
 
 
     }
@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
                         String nicFromDB = dataSnapshot.child(enteredUsername).child("nic").getValue(String.class);
 
 
-                        Intent intent = new Intent(getApplicationContext(),Signup.class);
-                        Intent intent1 = new Intent(getApplicationContext(),Signup.class);
+                        Intent intent = new Intent(getApplicationContext(),UserProfile.class);
+                        Intent intent1 = new Intent(getApplicationContext(),UserProfile.class);
 
 
                         intent.putExtra("name",nameFromDB);

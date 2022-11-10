@@ -19,14 +19,14 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        btnbmn = findViewById(R.id.btnbmn);
+        btnbmn = findViewById(R.id.btnqr);
 
         btnbmn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
-                startActivity(new Intent(Home.this, Signup.class));
+                startActivity(new Intent(Home.this, ScanQR.class));
             }
         });
 

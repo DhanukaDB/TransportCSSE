@@ -8,31 +8,93 @@
     android:background="@drawable/homebg">
 
     <Button
-        android:id="@+id/btnbmn"
-        android:layout_width="321dp"
-        android:layout_height="48dp"
-        android:text="Publish Question"
+        android:id="@+id/btnqr"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="📓 Read QR"
+        android:textAllCaps="true"
+        app:backgroundTint="@color/primaryhomebtn"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnbmn2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="📅 Schedule"
+        android:textAllCaps="true"
+        app:backgroundTint="@color/primaryhomebtn"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnbmn3"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Manage"
         android:textAllCaps="true"
         app:backgroundTint="@color/primarybtn"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.807" />
+
+    <Button
+        android:id="@+id/btnbmn4"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Reports"
+        android:textAllCaps="true"
+        app:backgroundTint="@color/primarybtn"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
 
     <Button
         android:id="@+id/btnque"
-        android:layout_width="321dp"
-        android:layout_height="48dp"
-        android:text="Questions"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Payment"
         android:textAllCaps="true"
         app:backgroundTint="@color/secondarybtn"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877" />
+        app:layout_constraintVertical_bias="0.653" />
+
+    <Button
+        android:id="@+id/btnque2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="My Account"
+        android:textAllCaps="true"
+        app:backgroundTint="@color/secondarybtn"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
