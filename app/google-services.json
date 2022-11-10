@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "38210426992",
-    "project_id": "transportcsse",
-    "storage_bucket": "transportcsse.appspot.com"
+    "project_number": "182179262209",
+    "project_id": "transport-app-9e9bc",
+    "storage_bucket": "transport-app-9e9bc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:38210426992:android:e9254071d8cfbe63973cb5",
+        "mobilesdk_app_id": "1:182179262209:android:9d55db618b4f653e203500",
         "android_client_info": {
-          "package_name": "com.csse.transport"
+          "package_name": "com.csse.transportcsse"
         }
       },
       "oauth_client": [
         {
-          "client_id": "38210426992-hc4a77dpgohunuat0kgr4jtpnrmgtvsf.apps.googleusercontent.com",
+          "client_id": "182179262209-tlh8c2usr471kfcvum38k8bjiq0lojmb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCNMuv2ozobQiV8HxnBd9feNdYjnfzjhzI"
+          "current_key": "AIzaSyDLwl6-NqGVEUvy-zIavnC1LHzTXX7-990"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "38210426992-hc4a77dpgohunuat0kgr4jtpnrmgtvsf.apps.googleusercontent.com",
+              "client_id": "182179262209-tlh8c2usr471kfcvum38k8bjiq0lojmb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
