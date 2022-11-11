@@ -43,13 +43,13 @@ public class Home extends AppCompatActivity {
 
 
 
-//        btnTT = findViewById(R.id.btntt);
-//        btnTT.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(home.this, ManageBusTime.class));
-//            }
-//        });
+        btnTT = findViewById(R.id.btnacc);
+        btnTT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, UserProfile.class));
+            }
+        });
 //
 //        btnHBM = findViewById(R.id.btnhbm);
 //        btnHBM.setOnClickListener(new View.OnClickListener() {
