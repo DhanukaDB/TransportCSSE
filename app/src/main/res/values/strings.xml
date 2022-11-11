@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">TransportCSSE</string>
+    <string name="title_activity_add_payment">AddPayment</string>
+    <string name="app_name">Payments</string>
+    <string name="name">Name</string>
+    <string name="cardNum">Card Number</string>
+    <string name="amount">Amount</string>
+    <string name="expDate">Expiry Date</string>
+    <string name="cvv">CVV</string>
+    <string name="txtAmount">Enter Amount</string>
+    <string name="txtName">Enter CardHolder\'s Name</string>
+    <string name="txtCardNum">Enter Card Number</string>
+    <string name="txtCVV">Enter CVV</string>
+    <string name="txtDate">mm/yy</string>
+    <string name="btnAddCredit">Add Credit</string>
+    <string name="title_activity_my_credits">MyCredits</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
