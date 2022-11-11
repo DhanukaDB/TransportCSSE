@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+
+        android:layout_marginBottom="20dp"
+        android:text="From"
+        android:textColor="#070000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/product_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="325dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="572dp"
+        android:gravity="center"
+        android:inputType="textCapSentences"
+        android:maxLength="20"
+        android:textColor="#070101"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="63dp"
+        android:layout_height="30dp"
+
+        android:layout_marginBottom="8dp"
+        android:text="To"
+        android:textColor="#070000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/product_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="468dp"
+        android:gravity="center"
+        android:inputType="textCapSentences"
+        android:textColor="#070101"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="53dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="16dp"
+        android:text="Time"
+        android:textColor="#070000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/product_brand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/product_brand"
+        android:layout_width="346dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="352dp"
+        android:gravity="center"
+        android:inputType="textCapSentences"
+        android:maxLength="10"
+        android:textColor="#070101"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="24dp"
+
+        android:layout_marginBottom="16dp"
+        android:text="Date"
+        android:textColor="#070000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/product_category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/product_category"
+        android:layout_width="346dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="240dp"
+        android:gravity="center"
+        android:inputType="textCapSentences"
+        android:maxLength="20"
+        android:textColor="#070101"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEdit1"
+        android:layout_width="321dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="152dp"
+        android:backgroundTint="#095904"
+        android:gravity="center"
+        android:text="UPDATE"
+        android:textAllCaps="false"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

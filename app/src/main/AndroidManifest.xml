@@ -17,6 +17,7 @@
         <activity android:name=".Home" />
         <activity android:name=".Signup" />
         <activity android:name=".ReportList" />
+        <activity android:name=".AddReport" />
         <activity
 
             android:name=".MainActivity"
