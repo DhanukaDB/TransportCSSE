@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Home extends AppCompatActivity {
 
-    Button btnbmn,btnque, btnTT, btnmnage, btnBooking;
+    Button btnbmn,btnque, btnTT, btnmnage, reports;
     TextView feedbackTxt;
 
 
@@ -58,13 +58,13 @@ public class Home extends AppCompatActivity {
                 startActivity(new Intent(Home.this, ManageBusTime.class));
             }
         });
-//
-//        btnBooking = findViewById(R.id.btnDoneBookings);
-//        btnBooking.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(home.this, RetrieveCardActivity.class));
-//            }
-//        });
+
+        reports = findViewById(R.id.btnbmn4);
+        reports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, ReportList.class));
+            }
+        });
     }
 }
