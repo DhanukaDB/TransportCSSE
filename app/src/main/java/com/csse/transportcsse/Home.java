@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Home extends AppCompatActivity {
 
-    Button btnbmn,btnque, btnTT, btnHBM, btnBooking;
+    Button btnbmn,btnque, btnTT, btnmnage, btnBooking;
     TextView feedbackTxt;
 
 
@@ -19,14 +19,14 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        btnbmn = findViewById(R.id.btnbmn);
+        btnbmn = findViewById(R.id.btnqr);
 
         btnbmn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
-                startActivity(new Intent(Home.this, ReportList.class));
+                startActivity(new Intent(Home.this, ScanQR.class));
             }
         });
 
@@ -43,21 +43,21 @@ public class Home extends AppCompatActivity {
 
 
 
-//        btnTT = findViewById(R.id.btntt);
-//        btnTT.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(home.this, ManageBusTime.class));
-//            }
-//        });
-//
-//        btnHBM = findViewById(R.id.btnhbm);
-//        btnHBM.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(home.this, HireActivity.class));
-//            }
-//        });
+        btnTT = findViewById(R.id.btnacc);
+        btnTT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, UserProfile.class));
+            }
+        });
+
+        btnmnage = findViewById(R.id.btnmnage);
+        btnmnage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, ManageBusTime.class));
+            }
+        });
 //
 //        btnBooking = findViewById(R.id.btnDoneBookings);
 //        btnBooking.setOnClickListener(new View.OnClickListener() {

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TransportCSSE"
         tools:targetApi="31">
 
+        <activity android:name=".AddTimeDetails" />
+        <activity android:name=".ManageBusTime" />
+        <activity android:name=".UserProfile" />
         <activity android:name=".ScanQR" />
         <activity android:name=".Home" />
         <activity android:name=".Signup" />
