@@ -10,4 +10,5 @@
     <color name="primarybtn">#2196F3</color>
     <color name="secondarybtn">#757575</color>
     <color name="deletebtn">#640D0D</color>
+    <color name="primaryhomebtn">#441934BA</color>
 </resources>

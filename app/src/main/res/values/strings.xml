@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">TransportCSSE</string>
+
+    <string-array name="from_area">
+        <item>Kandy</item>
+        <item>Kaduwela</item>
+        <item>Malabe</item>
+    </string-array>
+    <string-array name="to_area">
+        <item>Kandy</item>
+        <item>Kaduwela</item>
+        <item>Malabe</item>
+    </string-array>
 </resources>
