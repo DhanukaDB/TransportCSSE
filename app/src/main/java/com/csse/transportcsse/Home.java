@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Home extends AppCompatActivity {
 
-    Button btnbmn,btnque, btnTT, btnHBM, btnBooking;
+    Button btnbmn,btnque, btnTT, btnmnage, btnBooking;
     TextView feedbackTxt;
 
 
@@ -50,14 +50,14 @@ public class Home extends AppCompatActivity {
                 startActivity(new Intent(Home.this, UserProfile.class));
             }
         });
-//
-//        btnHBM = findViewById(R.id.btnhbm);
-//        btnHBM.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(home.this, HireActivity.class));
-//            }
-//        });
+
+        btnmnage = findViewById(R.id.btnmnage);
+        btnmnage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, ManageBusTime.class));
+            }
+        });
 //
 //        btnBooking = findViewById(R.id.btnDoneBookings);
 //        btnBooking.setOnClickListener(new View.OnClickListener() {
